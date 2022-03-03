@@ -21,7 +21,7 @@ const AddColor = ({ liftingFormData, colors }) => {
   }, []);
 
   useEffect(() => {
-    const API = "http://51.75.120.145:3000/todo";
+    const API = "https://51.75.120.145:3000/todo";
     const dataToSend = colors;
     fetch(API, {
       method: "post",
