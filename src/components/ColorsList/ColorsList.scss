@@ -1,0 +1,19 @@
+@import "../../variables.scss";
+.colors-list {
+  margin: 0;
+  padding: 0;
+  max-height: 370px;
+  background: var(--transparent07);
+  border-radius: 3px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 11px;
+  &-thumb {
+    background: linear-gradient(var(--maroon), var(--scarlet));
+    border-radius: 3px;
+  }
+  &-thumb:hover {
+    background: var(--scarlet);
+  }
+}

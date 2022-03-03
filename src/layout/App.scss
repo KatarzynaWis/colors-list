@@ -1,0 +1,22 @@
+.container {
+  margin: 30px auto;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-wrapper {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  background: var(--transparent07);
+  border-radius: 3px;
+  &:hover {
+    background: var(--transparent08);
+  }
+}
+.list-wrapper {
+  padding: 10px;
+  width: 106%;
+}

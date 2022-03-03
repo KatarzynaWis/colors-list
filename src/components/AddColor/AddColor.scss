@@ -1,0 +1,29 @@
+@import "../../variables";
+
+.add-color-form {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  &__input {
+    margin: 0 5px;
+    padding: 0 10px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+  }
+  &__input:focus {
+    outline: none;
+  }
+  &__input--submit {
+    background-image: url("./plus-solid.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+  }
+  &__input--submit:hover {
+    transform: scale(1.5);
+  }
+}
