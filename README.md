@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## GoInline task Colors List
 
-# [Live view](https://katarzynawis.github.io/go-online/)
+# [Live view](https://katarzynawis.github.io/colors-list/)
 
 # Test Specification
 
